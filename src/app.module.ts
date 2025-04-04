@@ -12,6 +12,8 @@ import { AccountsModule } from './accounts/accounts.module';
       username: 'postgres',
       password: 'password',
       database: 'bank',
+      autoLoadEntities: true,
+      synchronize: false,
     }),
     UsersModule,
     AccountsModule,
